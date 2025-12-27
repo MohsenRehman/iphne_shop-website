@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+.leftlogo{
+    /* border: 1px solid blue; */
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navlinks{
+    /* border: 1px solid black; */
+    width: 60%;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navlinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks ul li{
+    list-style: none;
+}
+.righticons{
+    /* border: 2px solid green; */
+    width: 20%;
+    display: flex;
+    gap: 35px;
+}
+
+/* hero sectoin design start */
+.section_1{
+    border: 1px solid red;
+}
+.heroheading{
+    border: 1px solid blue;
+    background: rgb(245, 245, 247);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.heroheading h1{
+    font-size: 62px;
+}
+.herobtn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.herobtn button{
+    width: 130px;
+    height: 44px;
+    padding: 11px 12px;
+    border-radius: 25px;
+}
+.blue{
+    background: rgb(0, 113, 227);
+    color: white;
+    border: none;
+}
+.white{
+    background-color: white;
+    color: rgb(0, 113, 227);
+    border: 1px solid rgb(0, 113, 227);
+}
+.white:hover{
+    background-color: rgb(0, 113, 227);
+    color: white;
+}
+.herob img{
+
+}
+/* hero section design end */
